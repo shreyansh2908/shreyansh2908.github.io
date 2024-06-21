@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Vanta.js and Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+</head>
+<body>
+    <div id="vanta-bg">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <div class="container home-content">
+                <div class="text-content">
+                    <h1>Hey There, I'm Shreyansh</h1>
+                    <p id="animated-text" class="typing"></p>
+                    <div class="icons">
+                        <a href="https://github.com/shreyansh2908" target="_blank">
+                            <img src="github.jpg" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/shreyansh-shrivastava29/" target="_blank">
+                            <img src="linkedin.jpg" alt="LinkedIn">
+                        </a>
+                        <a href="https://drive.google.com/file/d/1-hsMZ2q3cGFggF0hRE9kYLjdP8EQ2uYn/view?usp=sharing" target="_blank">
+                            <img src="resume.jpg" alt="Resume">
+                        </a>
+                        <a href="https://leetcode.com/u/Shreyansh2908/" target="_blank">
+                            <img src="leetcode.png" alt="College Website">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about" class="white-bg">
+        <div class="container about-content">
+            <div class="left-section">
+                <img src="doodle.jpg" alt="Radhika's Photo">
+            </div>
+            <div class="right-section">
+                <h2>What do I do??</h2>
+                <br>
+                <p>Welcome to my portfolio! I’m Shreyansh Shrivastava, a Machine Learning enthusiast and a 
+                passionate researcher in Natural Language Processing. I'm currently pursuing my M.Tech in Computer 
+                Science and Engineering at the International Institute of Information Technology, Hyderabad, with 
+                a keen focus on leveraging AI to solve complex problems. </p>
+    
+                <p>My academic journey has been marked by a strong foundation in theory and practical application. 
+                I hold a B.Tech degree in Computer Science from Shri Shankaracharya Technical Campus, Bhilai, where 
+                I graduated with an impressive CGPA of 8.83</p>
+                    
+                <p>As a Research Intern at IIIT Bangalore, I’ve been involved in cutting-edge projects in the GVCL lab, 
+                focusing on innovative methodologies in NLP.</p>
+    
+                <p>In addition to my academic and professional pursuits, 
+                I am a former national-level table tennis player, which has instilled in me a 
+                spirit of competition and perseverance.</p>
+
+                <p>I invite you to explore my blog, where I share insights and developments in the world of machine learning 
+                and natural language processing. Let's connect and explore how we can innovate and inspire together in the 
+                world of technology!</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="education" class="cream-bg">
+        <div class="container education-content">
+            <div class="left-section">
+                <h2>Educational Qualification</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>International Institute of Information Technology(IIIT‑H)</h4>
+                            <h4>Master's in Technology &#40;M.Tech&#41;</h4>
+                            <p>August 2023 - June 2025</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Science and Engineering</h4>
+                            <p>CGPA: 8.11/10.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>Shri Shankaracharya Technical Campus </h4>
+                            <h4>Bachelor's of Technology&#40;B.Tech&#41;</h4>
+                            <p>August 2019 - June 2023</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Domain: Computer Science and Engineering</h4>
+                            <p>CGPA: 8.83/10.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="box left-content">
+                            <h4>DAV (Dayanand Anglovedic School) </h4>
+                            <p>July 2008 - June 2019</p>
+                        </div>
+                        <div class="circle"></div>
+                        <div class="box right-content">
+                            <h4>Senior Secondary Examination CBSE - Class XII</h4>
+                            <p>PERCENTAGE: 93%</p>
+                            <h4>Higher Secondary Examination CBSE - Class X</h4>
+                            <p>CGPA 10.0/10.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="relevant-course" class="white-bg">
+            <h2> Relevant Cousre Work</h2>
+            <div class="container relevant-course-content">
+                <div class="left-section">
+                    <h3>Core CS Courses</h3>
+                    <ul>
+                        <li><span class="tick">&#10003;</span> Data Structure and Algorithm for Problem Solving</li>
+                        <li><span class="tick">&#10003;</span> Advance Operating System</li>
+                        <li><span class="tick">&#10003;</span> Software  System Developement</li>
+                        <li><span class="tick">&#10003;</span> Systems and Network Security</li>
+                        <li><span class="tick">&#10003;</span> Information, Security, Audit and Assurance </li>
+                    </ul>
+                </div>
+                <div class="right-section">
+                    <h3>AI/ML Courses</h3>
+                    <ul>
+                        <li><span class="tick">&#10003;</span> Intoduction to Natural Language Processing</li>
+                        <li><span class="tick">&#10003;</span> Statistical Methods In Artifical Intelligence</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+    
+
+    <section id="experience" class="white-bg">
+        <div class="container">
+            <h1>My Work Experience</h1>
+            <div class="timeline-2">
+                <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>International Institute of Information Technology, Bangalore</h3>
+                        <p>June 2024 - August 2024</p>
+                    </div>
+                    <div class="circle green"></div>
+                    <div class="right-content">
+                        <h4>Reseach Intern&#40;GRAPHICS-VISUALIZATION-COMPUTING LAB&#41;</h4>
+                        <br>
+                        <ul><li>Enhanced the integration and analysis of complex data through Natural Language Processing (NLP).</li>
+                       <li> A novel methodology for merging diverse questionnaires was developed, in collaboration with a Ph.D. </li>
+                        student. <li>This project not only enhanced analytical skills but also facilitated the application of 
+                        various NLP models to real-world problems.</li></ul>
+                    </div>
+                </div>
+                <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Self-Employed, Youtube</h3>
+                        <p>June 2024 - Present</p>
+                    </div>
+                    <div class="circle yellow"></div>
+                    <div class="right-content">
+                        <h4>Content Creation</h4>
+                        <br>
+                        <ul><li>At Nexus Ninja, a YouTube channel collaboratively managed with a fellow mate, 
+                            videos are produced and shared focusing on the latest research in Artificial Intelligence and Machine Learning.</li>
+                            <li> The channel is dedicated to unraveling complex concepts in AI/ML and the design and analysis of algorithms. 
+                            <li>TThrough our content, core concepts are elucidated and practical implementations of various theories 
+                            are demonstrated.</li></ul>
+                    </div>
+                </div>
+           <!--     <div class="timeline-item-2">
+                    <div class="left-content">
+                        <h3>Global Solution</h3>
+                        <p>Feb 2019 - Mar 2020</p>
+                    </div>
+                    <div class="circle red"></div>
+                    <div class="right-content">
+                        <h4>Sr. Product Designer</h4>
+                        <p>Find Product Photography Canada. Large Selection. Always Sale. Cheap Prices. Full Offer. Save Online. Compare Online. Simple Search. The Best Price. Compare Simply.</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="cream-bg">
+        <h2>Technical Skills</h2>
+        <div class="container skills-content">
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Core CS</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span class="skill-name">DSA</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">NLP</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skills-box">
+                    <h3>Management Skills</h3>
+                    <ul>
+                        <li>
+                            <span class="skill-name">Project Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Team Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <!-- Add more skills as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="work" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>My Latest Projects</h2>
+                <a href="https://github.com/shreyansh2908?tab=repositories" class="explore-more">Explore More</a>
+            </div>
+            <div class="works-container">
+                <div class="works">
+                    <div class="work-item yellow">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Text Entailment Recognition</div>
+                                <img src="project1.png" alt=App Design">
+                            </div>
+                            <div class="back">
+                                <p>The project focuses on the development of a Natural Language Inference system designed to 
+                                    assess text entailment. The core challenge addressed by this project is the recognition 
+                                    of whether a given hypothesis can logically be inferred from a provided text fragment. 
+                                    This involves deep semantic analysis to understand and predict entailment, contradiction, 
+                                    and neutrality between pairs of text.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Image Annotator</div>
+                                <img src="project2.png" alt="Web Design">
+                            </div>
+                            <div class="back">
+                                <p>It enhance image labeling. Click on an object, choose a predefined class or enter a custom comment. 
+                                    Supports uploading single files or entire folders. Features include undo and redo options for 
+                                    efficient workflow adjustments. Ideal for streamlining the annotation process in image-based 
+                                    projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item light-green">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Augmented Reality Watch Try-On App</div>
+                                <img src="project3.png" alt="Brand Identity">
+                            </div>
+                            <div class="back">
+                                <p>The app allows users to virtually try on realistic watch models using their wrists. 
+                                    Built with C-Sharp, Unity, and Vuforia, this innovative application blends advanced 
+                                    AR technology to provide a unique and interactive shopping experience, enhancing consumer 
+                                    engagement and decision-making in real-time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item red">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Enhanced XV-6 OS</div>
+                                <img src="project4.png" alt="Graphic Design">
+                            </div>
+                            <div class="back">
+                                <p>Enhancements were made to the XV-6 operating system to include a system call trace feature, 
+                                    which intercepts and records system calls. Additionally, various scheduling policies were 
+                                    implemented. This project, utilizing C and GNU Make, aims to improve OS efficiency and reliability, 
+                                    providing deeper insights into system operations and resource management.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-item blue">
+                        <div class="work-item-inner">
+                            <div class="front">
+                                <div class="title">Stay Tuned for More Innovations!</div>
+                                <img src="stay tuned.jpg" alt="UI/UX Design">
+                            </div>
+                            <div class="back">
+                                <p>Keep an eye on this space! I'm continuously working on exciting new projects that 
+                                    push the boundaries of technology and innovation. From advancements in AI to cutting-edge 
+                                    applications in augmented reality, there’s always something thrilling on the horizon. 
+                                    Stay connected and don’t miss out on the next big thing!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-nav">
+                <button class="scroll-left">Previous</button>
+                <button class="scroll-right">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="achievements" class="cream-bg">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievements-container">
+                <div class="achievement-item">
+                    <h3>97.82 Percentile, Graduate Aptitude Test in Engineering (GATE) CS (Computer Science ) - 2023</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>95.97 Percentile , Graduate Aptitude Test in Engineering (GATE) CS (Computer Science) - 2022</h3>
+                </div>
+                <div class="achievement-item">
+                    <h3>2x, Table tennis National Player in DAV national sports </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="publications" class="cream-bg">
+        <div class="container">
+            <div class="header">
+                <h2>Publications</h2>
+            </div>
+            <div class="publications-container">
+                <div class="publication-item">
+                    <div class="description">
+                        <p>Stay tuned for the upcoming publication of our collaborative research project, 
+                        where I've been working alongside a PhD student on innovative methodologies for merging questionnaires. 
+                        This work promises to offer new insights and valuable contributions to the field. Be sure to check back 
+                        for updates and access to the full study!</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Exciting Research Publication Coming Soon!</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="description">
+                        <p>Stay tuned for the upcoming publication of our collaborative research project, 
+                            where I've been working alongside a PhD student on innovative methodologies for merging questionnaires. 
+                            This work promises to offer new insights and valuable contributions to the field. Be sure to check back 
+                            for updates and access to the full study!</p>
+                    </div>
+                    <div class="line"></div>
+                    <div class="title">
+                        <a href="https://link-to-publication.com">Exciting Research Publication Coming Soon!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="blogs" class="yellow-bg">
+        <div class="container blogs-content">
+            <h1 class="section-title">CHECK THIS OUT!!</h1>
+            <div class="blogs-items">
+                <div class="blog-item">
+                    <a href="blog1.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog2.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog3.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="blog4.html">
+                        <div class="blog-image" style="background-image: url('coming-soon.jpg');"></div>
+                        <h3>Coming Soon</h3>
+                        <div class="blog-description">
+                            <p>Thanks for your Patience!!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="caption-link.html" class="link-caption">Link to the Blogs!</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="white-bg">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="left-section">
+                    <h2>Start by saying Hi!!</h2>
+                    <p>Tired of contact form? Send me an email!!</p>
+                    <p>Email: <a href="mailto:shreyansh.shrivastava2908@gmail.com">shreyansh.shrivastava2908@gmail.com</a></p>
+                </div>
+                <div class="right-section">
+                    <form action="mailto:shreyansh.shrivastava2908@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        VANTA.NET({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xD64218,  // Net lines color
+  backgroundColor: 0x2F2A25  // Background color
+});
+        document.addEventListener('DOMContentLoaded', function(){
+            const textElement = document.getElementById('animated-text');
+            const phrases = ["Machine Learning Enthusiast", "AI Innovator in NLP, with a Passion for Sports"];
+            let currentPhraseIndex = 0;
+            let currentCharIndex = 0;
+            let isDeleting = false;
+
+            function type() {
+                const currentPhrase = phrases[currentPhraseIndex];
+                if (isDeleting) {
+                    currentCharIndex--;
+                } else {
+                    currentCharIndex++;
+                }
+
+                textElement.textContent = currentPhrase.substring(0, currentCharIndex);
+
+                if (!isDeleting && currentCharIndex === currentPhrase.length) {
+                    isDeleting = true;
+                    setTimeout(type, 2000);  // Pause before deleting
+                } else if (isDeleting && currentCharIndex === 0) {
+                    isDeleting = false;
+                    currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                    setTimeout(type, 500);  // Pause before typing the next phrase
+                } else {
+                    setTimeout(type, isDeleting ? 50 : 100);
+                }
+            }
+
+            type();
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollContainer = document.querySelector('.works-container');
+            const scrollLeft = document.querySelector('.scroll-left');
+            const scrollRight = document.querySelector('.scroll-right');
+            const workItems = document.querySelectorAll('.work-item');
+
+            let currentIndex = 0;
+            const maxIndex = workItems.length - 3; // We show 3 items at a time
+
+            function updateScrollPosition() {
+                const offset = currentIndex * (scrollContainer.clientWidth / 3);
+                scrollContainer.scrollTo({
+                    left: offset,
+                    behavior: 'smooth'
+                });
+            }
+
+            scrollLeft.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                }
+                updateScrollPosition();
+            });
+
+            scrollRight.addEventListener('click', () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                }
+                updateScrollPosition();
+            });
+        });
+    </script>
+</body>
+</html>
